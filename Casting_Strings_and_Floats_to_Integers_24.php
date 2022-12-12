@@ -31,17 +31,26 @@ var_dump($float_cast);
 echo "<br>";
 echo $float_cast;
 
-echo "<br>";
+echo "<br> 123a45 convert this to int <br>";
 
 // Cast string to int
-$x = "123a33";
+$x = "123a45";
 $int_cast = (int)$x;
 echo $int_cast;
 
-echo "<br>";
+echo "<br> b123a45 convert this to int <br>";
 
 // Cast string to int
-$x = "b12a333";
+$x = "b123a45";
+var_dump($x);
+$int_cast = (int)$x;
+var_dump($int_cast);
+echo $int_cast;
+
+echo "<br> 9b123a45 convert this to int <br>";
+
+// Cast string to int
+$x = "9b123a45";
 var_dump($x);
 $int_cast = (int)$x;
 var_dump($int_cast);

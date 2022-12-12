@@ -32,7 +32,7 @@ echo $x."<br>";
 var_dump(is_numeric($x));
 
 echo "<br>";
-$x = "55a9" + 100;
+$x = "55a99" + 100;
 echo $x."<br>";
 var_dump(is_numeric($x));
 ?>

@@ -35,7 +35,6 @@ echo "<br>";
 $result = is_finite($x);
 var_dump($result);
 
-$x = 1.9e411;
 echo "<br> is_infinite()<br>";
 $result = is_infinite($x);
 var_dump($result);
